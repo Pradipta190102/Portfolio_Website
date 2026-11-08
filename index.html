@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Pradipta Ghosh – Software Engineer at TCS. React.js, Node.js, Java, SQL and full-stack MERN projects." />
+    <meta name="theme-color" content="#121212" />
+    <title>Pradipta Ghosh | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <header id="site-header">
+      <nav class="nav" aria-label="Primary">
+        <a href="#profile" class="logo">Pradipta Ghosh</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+      <ul class="mobile-menu" id="mobile-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="profile" class="hero">
+        <div class="hero-inner">
+          <div class="hero-pic">
+            <img src="./assets/profile-pic.jpg" alt="Pradipta Ghosh" />
+          </div>
+          <div class="hero-text">
+            <p class="eyebrow">Profile</p>
+            <h1 class="hero-title">Pradipta Ghosh</h1>
+            <p class="hero-sub">Software Engineer at Tata Consultancy Services</p>
+            <p class="hero-meta">2+ years &bull; React.js &bull; Node.js &bull; Java &bull; SQL</p>
+            <div class="btn-row">
+              <a class="btn btn-primary" href="./assets/Pradipta_Ghosh_Resume.pdf" target="_blank" rel="noopener">Download CV</a>
+              <a class="btn btn-outline" href="#contact">Contact Info</a>
+            </div>
+            <div class="socials">
+              <a href="https://www.linkedin.com/in/pg37/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <img src="./assets/lkd-logo.png" alt="" class="social-icon" />
+              </a>
+              <a href="https://github.com/Pradipta190102" target="_blank" rel="noopener" aria-label="GitHub">
+                <img src="./assets/git.png" alt="" class="social-icon social-git" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <h2 class="section-title">About me</h2>
+        <div class="about-grid">
+          <div class="about-pic">
+            <img src="./assets/about-pic.jpg" alt="Pradipta Ghosh portrait" loading="lazy" />
+          </div>
+          <div class="about-body">
+            <div class="card-row">
+              <div class="card">
+                <img src="./assets/medal.png" alt="" class="card-icon" />
+                <h3>Experience</h3>
+                <p>2+ years<br />Full-stack development, Problem Solving and Production Support</p>
+              </div>
+              <div class="card">
+                <img src="./assets/book.png" alt="" class="card-icon" />
+                <h3>Education</h3>
+                <p>B.Tech in Information Technology, CGPA 8.46<br />Kalyani Government Engineering College</p>
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                Software Engineer with 2+ years of experience focused on problem solving and building reliable
+                applications. I am well-versed in core computer science concepts including Operating Systems,
+                Computer Networks and Databases, and I write clean code by applying Data Structures, Algorithms
+                and OOPs principles.
+              </p>
+              <p>
+                I can handle Low Level Design, Design Patterns and system optimization through multithreading and
+                concurrency. I work across MySQL, PostgreSQL and MongoDB, and take part in the complete SDLC with
+                GitHub for version control alongside thorough debugging and testing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience">
+        <h2 class="section-title">Experience</h2>
+        <article class="job">
+          <div class="job-head">
+            <div>
+              <h3>Software Engineer</h3>
+              <p class="job-company">Tata Consultancy Services</p>
+            </div>
+            <span class="pill">Nov 2024 &ndash; Present</span>
+          </div>
+          <ul class="job-list">
+            <li>Developed product UI screens in React.js and JavaScript for the TCS BaNCS insurance platform across 6 Lines of Business, using reusable components to keep screens consistent.</li>
+            <li>Integrated the UI with backend REST APIs for underwriting, rating and validation workflows.</li>
+            <li>Provided production support for client applications: analysed application logs and SQL lock contention (a concurrency issue) through root cause analysis, cutting recurring client incidents by 20%.</li>
+            <li>Wrote SQL queries to investigate data issues, and deployed and monitored the application on AWS cloud.</li>
+          </ul>
+          <div class="chips">
+            <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" alt="" />React.js</span>
+            <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" alt="" />JavaScript</span>
+            <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="" />SQL</span>
+            <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="" class="invert-fix" />AWS</span>
+          </div>
+        </article>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <h2 class="section-title">Technical skills</h2>
+        <div class="skills-grid">
+          <div class="card skill-card">
+            <h3>Languages</h3>
+            <div class="chips">
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/java/java-original.svg" alt="" />Java</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/cplusplus/cplusplus-original.svg" alt="" />C++</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" alt="" />Python</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" alt="" />JavaScript</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="" />SQL</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/html5/html5-original.svg" alt="" />HTML</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/css3/css3-original.svg" alt="" />CSS</span>
+            </div>
+          </div>
+          <div class="card skill-card">
+            <h3>Frameworks &amp; technologies</h3>
+            <div class="chips">
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/spring/spring-original.svg" alt="" />Spring</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" alt="" />React.js</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/redux/redux-original.svg" alt="" />Redux Toolkit</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nodejs/nodejs-original.svg" alt="" />Node.js</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/express/express-original.svg" alt="" class="invert-fix" />Express.js</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/tailwindcss/tailwindcss-original.svg" alt="" />Tailwind CSS</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/bootstrap/bootstrap-original.svg" alt="" />Bootstrap</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="" class="invert-fix" />AWS</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/docker/docker-original.svg" alt="" />Docker</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/kubernetes/kubernetes-original.svg" alt="" />Kubernetes</span>
+              <span class="chip">REST APIs</span>
+              <span class="chip">JWT</span>
+              <span class="chip">MVC</span>
+            </div>
+          </div>
+          <div class="card skill-card">
+            <h3>Databases</h3>
+            <div class="chips">
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mongodb/mongodb-original.svg" alt="" />MongoDB</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt="" />PostgreSQL</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mysql/mysql-original.svg" alt="" />MySQL</span>
+            </div>
+          </div>
+          <div class="card skill-card">
+            <h3>Developer tools</h3>
+            <div class="chips">
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/git/git-original.svg" alt="" />Git</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/github/github-original.svg" alt="" class="invert-fix" />GitHub</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/vscode/vscode-original.svg" alt="" />VS Code</span>
+              <span class="chip">Claude</span>
+              <span class="chip">GitHub Copilot</span>
+            </div>
+          </div>
+          <div class="card skill-card skill-wide">
+            <h3>Core concepts</h3>
+            <div class="chips">
+              <span class="chip">Problem Solving</span>
+              <span class="chip">Debugging</span>
+              <span class="chip">SDLC</span>
+              <span class="chip">Data Structures &amp; Algorithms</span>
+              <span class="chip">DBMS</span>
+              <span class="chip">Operating Systems (Windows &amp; Linux)</span>
+              <span class="chip">Computer Networks</span>
+              <span class="chip">OOPs</span>
+              <span class="chip">Low Level Design</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <!-- Diaro -->
+          <article class="project">
+            <img src="./assets/diaro-thumb.jpg" alt="Diaro journal app thumbnail" class="project-cover" style="background:#20bebb" loading="lazy" />
+            <h3>Diaro &ndash; Personal Journal App</h3>
+            <p class="project-desc">
+              Full-stack MERN journal app to add, edit, delete and search daily entries. Backend exposes 12 REST
+              APIs with input validation, and login uses JWT in httpOnly cookies with bcrypt hashing. Every entry
+              query is filtered by user ID so users only see their own entries.
+            </p>
+            <div class="chips">
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" alt="" />React.js</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/redux/redux-original.svg" alt="" />Redux Toolkit</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/tailwindcss/tailwindcss-original.svg" alt="" />Tailwind CSS</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nodejs/nodejs-original.svg" alt="" />Node.js</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/express/express-original.svg" alt="" class="invert-fix" />Express.js</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mongodb/mongodb-original.svg" alt="" />MongoDB</span>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-primary btn-sm" href="https://github.com/Pradipta190102" target="_blank" rel="noopener">GitHub</a>
+              <a class="btn btn-outline btn-sm" href="https://daybook-mern.vercel.app" target="_blank" rel="noopener">Live Demo</a>
+            </div>
+          </article>
+
+          <!-- Movies Hub -->
+          <article class="project">
+            <img src="./assets/movies-thumb.jpg" alt="Movies Hub thumbnail" class="project-cover" style="background:#ffe8a6" loading="lazy" />
+            <h3>Movies Hub &ndash; MERN Movie App</h3>
+            <p class="project-desc">
+              Full-stack movie app with search and filters by genre, year, and newest, top or random. 20+ REST APIs
+              secured with JWT in httpOnly cookies, bcrypt and role-based access checks. Includes an admin panel to
+              manage movies, genres, posters and reviews, with one review per user per movie.
+            </p>
+            <div class="chips">
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" alt="" />React.js</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/redux/redux-original.svg" alt="" />Redux Toolkit</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/tailwindcss/tailwindcss-original.svg" alt="" />Tailwind CSS</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nodejs/nodejs-original.svg" alt="" />Node.js</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/express/express-original.svg" alt="" class="invert-fix" />Express.js</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mongodb/mongodb-original.svg" alt="" />MongoDB</span>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-primary btn-sm" href="https://github.com/Pradipta190102" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+          <!-- OneCode (kept) -->
+          <article class="project">
+            <img src="./assets/front-end.png" alt="OneCode project preview" class="project-cover" loading="lazy" />
+            <h3>OneCode</h3>
+            <p class="project-desc">Front-end web project built with HTML, CSS and JavaScript.</p>
+            <div class="chips">
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/html5/html5-original.svg" alt="" />HTML</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/css3/css3-original.svg" alt="" />CSS</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" alt="" />JavaScript</span>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-primary btn-sm" href="https://github.com/Pradipta190102/OneCode" target="_blank" rel="noopener">GitHub</a>
+              <a class="btn btn-outline btn-sm" href="https://pradipta190102.github.io/OneCode/" target="_blank" rel="noopener">Live Demo</a>
+            </div>
+          </article>
+
+          <!-- Travel Bee -->
+          <article class="project">
+            <img src="./assets/travel-thumb.jpg" alt="Travel Bee thumbnail" class="project-cover" style="background:#ffece5" loading="lazy" />
+            <h3>Travel Bee</h3>
+            <p class="project-desc">Travel website to explore destinations, built with HTML, CSS and JavaScript.</p>
+            <div class="chips">
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/html5/html5-original.svg" alt="" />HTML</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/css3/css3-original.svg" alt="" />CSS</span>
+              <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" alt="" />JavaScript</span>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-primary btn-sm" href="https://github.com/Pradipta190102/Travel-Bee" target="_blank" rel="noopener">GitHub</a>
+              <a class="btn btn-outline btn-sm" href="https://059lsv.csb.app/" target="_blank" rel="noopener">Live Demo</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ACHIEVEMENTS -->
+      <section id="achievements">
+        <h2 class="section-title">Achievements &amp; certifications</h2>
+        <div class="card-row wrap">
+          <div class="card">
+            <h3>Problem solving</h3>
+            <p>4-star ranking on HackerRank and 300+ problems solved on various coding platforms.</p>
+            <div class="chips">
+              <a class="chip chip-link" href="https://leetcode.com/u/user9762HK" target="_blank" rel="noopener">LeetCode</a>
+              <a class="chip chip-link" href="https://www.geeksforgeeks.org/user/pradiptaghosh780" target="_blank" rel="noopener">GeeksforGeeks</a>
+              <a class="chip chip-link" href="https://www.hackerrank.com/profile/pradipta_ghosh71" target="_blank" rel="noopener">HackerRank</a>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Certifications</h3>
+            <p>Programming for Everybody (Getting Started with Python) &ndash; Coursera</p>
+            <p>JavaScript Course Completion &ndash; NamasteDev</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact">
+        <h2 class="section-title">Get in touch</h2>
+        <div class="contact-card">
+          <a class="contact-item" href="mailto:pradipta.ghosh780@gmail.com">
+            <img src="./assets/gmail1.jpg" alt="" class="contact-icon" />
+            <span>pradipta.ghosh780@gmail.com</span>
+          </a>
+          <a class="contact-item" href="tel:+919883379260">
+            <span class="contact-glyph" aria-hidden="true">&#9742;</span>
+            <span>+91-9883379260</span>
+          </a>
+          <a class="contact-item" href="https://www.linkedin.com/in/pg37/" target="_blank" rel="noopener">
+            <img src="./assets/lkd-logo.png" alt="" class="contact-icon" />
+            <span>LinkedIn</span>
+          </a>
+          <a class="contact-item" href="https://github.com/Pradipta190102" target="_blank" rel="noopener">
+            <img src="./assets/git.png" alt="" class="contact-icon contact-git" />
+            <span>GitHub</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <ul class="footer-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p>Copyright &copy; 2026 Pradipta Ghosh. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

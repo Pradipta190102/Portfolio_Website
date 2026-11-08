@@ -1,0 +1,83 @@
+/* ---------- RESPONSIVE ---------- */
+
+/* Large tablets / small laptops */
+@media screen and (max-width: 1024px) {
+  .nav-links a {
+    padding: 0.5rem 0.7rem;
+  }
+  .about-grid {
+    grid-template-columns: minmax(0, 280px) 1fr;
+  }
+}
+
+/* Tablets: switch to hamburger menu */
+@media screen and (max-width: 860px) {
+  .nav-links {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-pic {
+    max-width: 340px;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Phones */
+@media screen and (max-width: 640px) {
+  section {
+    padding-top: 3rem;
+  }
+  .hero-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .hero-text .btn-row,
+  .hero-text .socials {
+    justify-content: center;
+  }
+  .card-row,
+  .skills-grid,
+  .contact-card {
+    grid-template-columns: 1fr;
+  }
+  .job-head {
+    flex-direction: column;
+  }
+  .logo {
+    font-size: 1.15rem;
+  }
+  .btn {
+    padding: 0.8rem 1.5rem;
+  }
+  .btn-row .btn:not(.btn-sm) {
+    flex: 1 1 140px;
+  }
+}
+
+/* Very small phones */
+@media screen and (max-width: 360px) {
+  .chip {
+    font-size: 0.78rem;
+  }
+  .hero-title {
+    font-size: 2.1rem;
+  }
+}
+
+/* Large desktops */
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 112.5%;
+  }
+}
